@@ -5,6 +5,12 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+	font-family: 'Montserrat';
+	src: url('fonts/Montserrat-ExtraLight.otf') format('otf');
+	font-weight: 100;
+	font-style: normal;
+}
 /* =======================================================
 *
 * 	Template Style 
@@ -12,10 +18,10 @@
 *
 * ======================================================= */
 body {
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: "Vollkorn", Arial, sans-serif;
   font-weight: 300;
-  font-size: 20px;
-  line-height: 1.6;
+  font-size: 18px;
+  line-height: 1.7;
   color: rgba(0, 0, 0, 0.5);
 }
 @media screen and (max-width: 992px) {
@@ -34,6 +40,9 @@ a:hover, a:active, a:focus {
   color: #3C99D1;
   outline: none;
 }
+.active{
+    color: #3C99D1 !important;
+}
 
 p {
   margin-bottom: 1.5em;
@@ -42,8 +51,12 @@ p {
 h1, h2, h3, h4, h5, h6 {
   color: #000;
   font-family: "Montserrat", Arial, sans-serif;
-  font-weight: 700;
+  font-weight: 100;
   margin: 0 0 30px 0;
+}
+
+.plax{
+    color: #fff;
 }
 
 figure {
@@ -294,7 +307,7 @@ body.offcanvas #main, body.offcanvas .nav-toggle {
 }
 .work-item a p {
   font-size: 14px;
-  color: #cccccc;
+  color: #585858;
   margin-bottom: 0;
 }
 .work-item a:hover, .work-item a:active, .work-item a:focus {
@@ -335,7 +348,7 @@ body.offcanvas #main, body.offcanvas .nav-toggle {
 
 .testimonial {
   padding: 3em 0;
-  background: #3C99D1;
+  background: #656565;
 }
 @media screen and (max-width: 768px) {
   .testimonial {
@@ -613,7 +626,7 @@ body.offcanvas #main, body.offcanvas .nav-toggle {
   padding: 0;
 }
 .feature .text h3 {
-  font-weight: 300;
+  font-weight: 500;
   margin-bottom: 20px;
   color: rgba(0, 0, 0, 0.8);
   font-size: 14px;
@@ -809,7 +822,7 @@ body.offcanvas #main, body.offcanvas .nav-toggle {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: "Vollkorn", Arial, sans-serif;
   font-size: 18px;
   font-weight: 400;
   -webkit-border-radius: 0px;
@@ -841,8 +854,8 @@ body.offcanvas #main, body.offcanvas .nav-toggle {
   border: 2px solid #3C99D1;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #ec1919 !important;
-  border-color: #ec1919 !important;
+  background: #3C99D1 !important;
+  border-color: #3C99D1 !important;
 }
 .btn-primary.btn-outline {
   background: transparent;

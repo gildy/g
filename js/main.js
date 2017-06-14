@@ -175,7 +175,13 @@
 		counterWayPoint();
 		burgerMenu();
 		mobileMenuOutsideClick();
+        
+        
+        
+        
+        
 	});
 
 
 }());
+
